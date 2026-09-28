@@ -1,0 +1,19 @@
+.venv/
+data/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.log
+.env
+.startup.lock
+dist/
+Start Local Model.ps1
+ATTICALI_NETWORK.md
+COMBINED_INVESTIGATION.md
+reassess_failed.py
+MANIFEST.sha256.json
+.env.*
+*.sqlite3*
+*.db
+*.pem
+*.key

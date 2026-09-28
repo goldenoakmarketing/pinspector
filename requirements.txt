@@ -1,0 +1,9 @@
+# Direct dependencies tested together on Python 3.13 in the build environment.
+# Windows installation and live Google Maps collection still require HP verification.
+fastapi==0.141.1
+starlette==1.6.0
+uvicorn==0.48.0
+httpx==0.28.1
+beautifulsoup4==4.14.3
+pydantic==2.13.4
+playwright==1.57.0
