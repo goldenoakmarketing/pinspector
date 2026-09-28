@@ -8,7 +8,7 @@ ROOT=Path(__file__).resolve().parents[1]
 FILES=['LICENSE','THIRD_PARTY_NOTICES.md','bootstrap.py','requirements.txt','Start PinSpector.cmd','Stop PinSpector.cmd',
        'Install Browser.cmd','Diagnostics.cmd','Detect Local Model.ps1','app/constitution.md',
        'app/static/app.js','app/static/index.html','app/static/style.css',
-       'docs/CONTRIBUTING.md','docs/SECURITY.md']
+       'docs/CONTRIBUTING.md','docs/SECURITY.md','docs/LOCAL_MODEL_SETUP.md']
 
 def package_files(root):
     root=root.resolve()

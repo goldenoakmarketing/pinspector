@@ -24,6 +24,8 @@ experimental, bounded, and sensitive to layout changes and access gates.
 4. For reasoning, start your own local Ollama or compatible runtime. In Settings, detect installed models and select one. Qwen 2.5 7B is the tested model. No weights are bundled or automatically downloaded. Hardware requirements vary; allow adequate RAM and disk for the chosen model.
 5. Phone lookups require each user to supply their own Veriphone API key under Settings > Phone lookup. No shared key or lookup credits are included. Third-party terms and quotas apply. Without a key, website, profile, and other evidence collection remain available.
 
+For step-by-step instructions, ports, and connection troubleshooting, read [Connect your local model](docs/LOCAL_MODEL_SETUP.md).
+
 The default dashboard is http://127.0.0.1:8768 . Keep it local; do not expose it through a public tunnel. Settings supports other local runtime ports. The helper detects common Ollama ports without altering other applications.
 
 ## Data and privacy
