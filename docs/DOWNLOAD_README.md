@@ -1,16 +1,23 @@
-# PinSpector — free local business research
+# PinSpector
 
-Investigate public business listings, inspect captured sources, and follow
-connections through domains, phone numbers, published license claims, and business
-names. Runs locally on Windows with optional local AI. This is a source beta;
-follow the footprint behind the business.
+**Different names. Same phone number. What's really connected?**
+
+PinSpector helps you investigate Google Maps spam, questionable business locations,
+and possible lead-generation fronts. Follow the footprints across listings and
+websites: shared phone numbers, domains, published license claims, and distinctive
+business-name variants. Inspect the sources behind each connection and decide
+what deserves a closer look.
+
+Free to use, GPLv3, and runs on your Windows PC. Bring your own local model for AI
+assessments; bring your own Veriphone key for optional phone lookups. Currently a
+Windows source beta.
 
 ## What it does
 
-- Search a category and city, or investigate known business websites.
-- Capture source evidence and keep it separate from model interpretations.
-- Discover identifier connections and possible name variants across listings.
-- Review findings and export reports with source references.
+- **Investigate a market:** search a business category and city, or start with a known website.
+- **Check the claims:** review captured website text alongside source-linked observations.
+- **Follow the connections:** trace shared identifiers and possible brand variants across listings.
+- **Show your work:** inspect the evidence, add review notes, and export reports with source references.
 
 Name similarity is a research lead, not proof of common ownership. Generic name
 overlap and conflicting service categories are filtered. Maps discovery is
