@@ -9,14 +9,15 @@ business-name variants. Inspect the sources behind each connection and decide
 what deserves a closer look.
 
 Free to use, GPLv3, and runs on your Windows PC. Bring your own local model for AI
-assessments; bring your own Veriphone key for optional phone lookups. Currently a
-Windows source beta.
+assessments and use the **free Veriphone API** for optional phone validation,
+carrier, and line-type checks with your own API key. Currently a Windows source beta.
 
 ## What it does
 
 - **Investigate a market:** search a business category and city, or start with a known website.
 - **Check the claims:** review captured website text alongside source-linked observations.
 - **Follow the connections:** trace shared identifiers and possible brand variants across listings.
+- **Check phone numbers for free:** connect your own free Veriphone API key for standard phone validation, carrier, and line-type data.
 - **Show your work:** inspect the evidence, add review notes, and export reports with source references.
 
 Name similarity is a research lead, not proof of common ownership. Generic name
@@ -29,7 +30,7 @@ experimental, bounded, and sensitive to layout changes and access gates.
 2. Run `Start PinSpector.cmd`. Dependencies install into this application's private environment. No administrator launch is needed.
 3. Try the fictional demo first. For live Maps collection, Edge or Chrome must be available; `Install Browser.cmd` can install a separate Chromium if needed.
 4. For reasoning, start your own local Ollama or compatible runtime. In Settings, detect installed models and select one. Qwen 2.5 7B is the tested model. No weights are bundled or automatically downloaded. Hardware requirements vary; allow adequate RAM and disk for the chosen model.
-5. Phone lookups require each user to supply their own Veriphone API key under Settings > Phone lookup. No shared key or lookup credits are included. Third-party terms and quotas apply. Without a key, website, profile, and other evidence collection remain available.
+5. **Connect the free Veriphone API:** use your own free-account API key under **Settings > Phone lookup**. [Veriphone currently provides 1,000 free standard validations per month, with no credit card required](https://veriphone.io/pricing) (checked September 28, 2026). PinSpector uses standard/static lookups, requires a free account without paid credits, and stops when the allowance is exhausted. Results describe the original number-range carrier, not necessarily the current carrier of a ported number. No shared key or credits are bundled. Without a key, website and Maps research still work.
 
 For step-by-step instructions, ports, and connection troubleshooting, read [Connect your local model](docs/LOCAL_MODEL_SETUP.md).
 
